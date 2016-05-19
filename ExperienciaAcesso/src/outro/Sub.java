@@ -1,5 +1,13 @@
 package outro;
 
-public class Sub {
+import pacote.Referencia;
 
+public class Sub extends Referencia{
+	
+	public void testeAcesso(){
+		//modificadorDefault = 0;
+		modificadorPublic = 0;
+		modificadorProtegido = 0;
+		//modificadorPrivado = 0;
+	}
 }

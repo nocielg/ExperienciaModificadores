@@ -8,7 +8,7 @@ public class Referencia {
 	protected int modificadorProtegido;
 	private int modificadorPrivado;
 	
-	public void testeAcessoPropriaClasse(){
+	public void testeAcesso(){
 		modificadorDefault = 0;
 		modificadorPublic = 0;
 		modificadorProtegido = 0;
